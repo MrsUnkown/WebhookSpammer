@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #252424;
+    background: #000000;
 }
 
 #container {
@@ -70,7 +70,7 @@ a, a:visited {
 }
 
 #btn:hover { 
-    background-color: #00ff33;
+    background-color: #365a3f;
 }
 
 #log {
