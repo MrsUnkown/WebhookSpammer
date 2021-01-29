@@ -1,81 +1,44 @@
-/*   
-  Project by Mrs Unkown 
-  Pornhub.com 
-*/
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-* {
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+<!--
+  Project by Unkown    
+  Pornhub.com
+-->
 
-body {
-    background: #000000;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Discord Webhook Sender</title>
+  <meta name="author" content="Zua">
+  <meta name="description" content="Simple Discord Webhook Sender">
+  <meta name="keywords" content="discord,zua,webhook">
+  <meta name="title" content="Discord Webhook Sender">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
 
-#container {
-    margin-top: 80px;
-    margin: auto;
-    margin-right: 25px;
-    margin-left: 25px;
-    box-shadow: 7px 7px #0000006c;
-    background: rgb(92, 217, 255); 
-    padding: 25px;
-}
-
-#header {
-    text-align: center;
-    margin-top: 47px;
-    margin: auto;
-    font-size: 39px
-}
-
-#footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.37); 
-    color: white;
-    text-align: center;
-}
-
-.center-align {
-    text-align: center;
-}
-
-p {
-    font-size: 27px;
-}
-
-a, a:visited {
-    color: rgb(129, 129, 129)
-}
-
-#link, #username, #content, #avatar {
-    font-size: 25px;
-    background-color: #4e4e4e;
-    width: 75%;
-    padding: 20px;
-    border: 2px solid #000000c9;
-}
-
-#btn {
-    width: 35%;
-    font-size: 25px;
-    margin-top: 25px;
-    padding: 17px;
-    background-color: #00ebeb;
-    border: 2px solid #000000c9;
-}
-
-#btn:hover { 
-    background-color: #00ff40;
-}
-
-#log {
-    text-align: center;
-    width: 5%;
-    background-color: rgb(110, 255, 43);
-    color: green;
-}
+    <div id="header">
+      <h>Discord Webhook Sender</h>
+    </div>
+    <div id="container">
+      <div class="center-align">
+        <p>Webhook Link:</p><input type='text' id="link" placeholder="Type Webhook URL here ex. https://discordapp.com/api/webhooks/462759446225879041/CX-NNGFq5zjht82fQSJUTN2Or2DGq8UTwoIlhHgZ7lTJ6-wlHlRshIRuOC0nE6frfSwG">
+        <p>Bot Username:</p><input type="text" id="username" placeholder="Type the Username of the Webhook here * OPTIONAL" value="UnkownWebHookSender">
+        <p>Avatar URL:</p><input type="text" id="avatar" placeholder="Image URL">
+        <p>Content:</p><input type="text" id="content" placeholder="Type the Content of the Webhook here">
+        <br>
+        <button id="btn">Send</button>
+        <center>
+       <!--JS log in the works atm-->
+        <p id='log'></p>
+      </center>
+    </div>
+  </div> 
+  </div>
+  <div id="footer">
+    Copyright &copy; <a href="pornhub.com">Mrs Unkown</a>
+  </div>
+ <script src="jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
