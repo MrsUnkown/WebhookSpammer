@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #000000;
+    background: #ed3ee7;
 }
 
 #container {
@@ -18,7 +18,7 @@ body {
     margin-right: 25px;
     margin-left: 25px;
     box-shadow: 7px 7px #0000006c;
-    background: rgb(85, 85, 85); 
+    background: rgb(237, 62, 231); 
     padding: 25px;
 }
 
@@ -35,7 +35,7 @@ body {
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.37); 
+    background-color: rgba(0, 247, 255); 
     color: white;
     text-align: center;
 }
@@ -49,12 +49,12 @@ p {
 }
 
 a, a:visited {
-    color: rgb(129, 129, 129)
+    color: rgb(0, 235, 235)
 }
 
 #link, #username, #content, #avatar {
     font-size: 25px;
-    background-color: #4e4e4e;
+    background-color: #00f7ff;
     width: 75%;
     padding: 20px;
     border: 2px solid #000000c9;
@@ -65,12 +65,12 @@ a, a:visited {
     font-size: 25px;
     margin-top: 25px;
     padding: 17px;
-    background-color: #1d6e6e;
+    background-color: #00ff40;
     border: 2px solid #000000c9;
 }
 
 #btn:hover { 
-    background-color: #365a3f;
+    background-color: #00f7ff;
 }
 
 #log {
